@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe("Test contact us form via Automation Test Store", () => {
+describe("Test contact us form through Automation Test Store", () => {
     it ("Should be able to submit a successful submission via contact us form", () => {
         cy.visit('https://automationteststore.com/');
         cy.get("a[href$='contact']").click().then(function(linkText) {
